@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.bak
+
+# Database files
+*.sqlite
+*.db
+
+# Chroma vector DB
+chroma_db/
+app/chroma_db/
+*.duckdb
+*.parquet
+
+# Streamlit secrets
+.streamlit/
+.streamlit/secrets.toml
+
+# IDE/Editor junk
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Scraped output (optional)
+web-scrapping/*product*.csv
+web-scrapping/unavailable_products.csv
+web-scrapping/duplicate_products.csv
