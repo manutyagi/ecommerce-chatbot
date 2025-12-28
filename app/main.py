@@ -19,21 +19,23 @@ def ask(query):
 
 st.title("E-commerce Bot")
 st.subheader("👋 Hi there! I’m your E-commerce Assistant")
-
 st.markdown("""
-**Here’s what I can help you with:**
+### 🔍 Suggested Queries  
+Try one of these to get started. 
 
-### 💬 Platform FAQs  
-Payment options, delivery timelines, refund rules, return policy, etc.
+#### 🛒 Product Search
+- **"Puma running shoes under ₹3000"**  
+- **"Nike shoes with rating above 4.2"**   
+- **"Formal black shoes below ₹2500"**  
 
-### 🔍 Smart Product Search  
-Describe what you want and I’ll find matching products from the catalog.  
-Try queries like:  
-- *Shoes below ₹4000 with rating above 4*  
-- *Show me Puma shoes on discount*  
-- *What payment methods do you accept?*
+#### 💬 FAQs
+- **"What payment methods do you accept?"**  
+- **"How long does refund take?"**  
+- **"Do you offer cash on delivery?"**
 
-**Go ahead and ask!**
+You can also ask your own question!
+⚠️ Tiny heads-up: Super broad product searches can sometimes overwhelm our baby bot.
+We're still early stage, thanks for being gentle with it! 😄
 """)
 
 
